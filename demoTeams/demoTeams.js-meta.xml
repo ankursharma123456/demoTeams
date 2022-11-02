@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets> 
+    <targetConfigs>
+
+        <targetConfig targets="lightning__HomePage,lightning__RecordPage,lightningCommunity__Default">
+            <property name="image" type="String"  label="Enter Image url"></property>
+            <property name="name" type="String" label="Enter Name"/>
+            <property name="position" type="String"  label="Enter Position"></property>
+            <property name="technology" type="String"  label="Enter Technlogy"></property>
+             
+            <property name="image1" type="String"  label="Enter Image url"></property>
+            <property name="name1" type="String" label="Enter Name"/>
+            <property name="position1" type="String"  label="Enter Position"></property>
+            <property name="technology1" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image2" type="String"  label="Enter Image url"></property>
+            <property name="name2" type="String" label="Enter Name"/>
+            <property name="position2" type="String"  label="Enter Position"></property>
+            <property name="technology2" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image3" type="String"  label="Enter Image url"></property>
+            <property name="name3" type="String" label="Enter Name"/>
+            <property name="position3" type="String"  label="Enter Position"></property>
+            <property name="technology3" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image4" type="String"  label="Enter Image url"></property>
+            <property name="name4" type="String" label="Enter Name"/>
+            <property name="position4" type="String"  label="Enter Position"></property>
+            <property name="technology4" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image5" type="String"  label="Enter Image url"></property>
+            <property name="name5" type="String" label="Enter Name"/>
+            <property name="position5" type="String"  label="Enter Position"></property>
+            <property name="technology5" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image6" type="String"  label="Enter Image url"></property>
+            <property name="name6" type="String" label="Enter Name"/>
+            <property name="position6" type="String"  label="Enter Position"></property>
+            <property name="technology6" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image7" type="String"  label="Enter Image url"></property>
+            <property name="name7" type="String" label="Enter Name"/>
+            <property name="position7" type="String"  label="Enter Position"></property>
+            <property name="technology7" type="String"  label="Enter Technlogy"></property>
+
+            <property name="image8" type="String"  label="Enter Image url"></property>
+            <property name="name8" type="String" label="Enter Name"/>
+            <property name="position8" type="String"  label="Enter Position"></property>
+            <property name="technology8" type="String"  label="Enter Technlogy"></property>
+         
+           
+        </targetConfig>
+
+    </targetConfigs>
+</LightningComponentBundle>
